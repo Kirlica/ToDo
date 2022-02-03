@@ -1,0 +1,87 @@
+.App {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 50px;
+  padding: 25px;
+}
+
+.title {
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(109, 109, 109);
+}
+
+.addTaskWrap {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.addTaskWrap input {
+  margin-right: 5%;
+}
+
+.buttonWrap {
+  margin-bottom: 20px;
+}
+
+.taskWrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #d7ecd9;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.taskOptions {
+  display: flex;
+  justify-content: end;
+}
+
+.form-check-input:checked {
+  background-color: #198754 !important;
+  border-color: #198754 !important;
+}
+
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgb(25 135 84 / 25%) !important;
+  border-color: #198754a8 !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgb(25 135 84 / 25%) !important;
+  border-color: #198754a8 !important;
+}
+
+.btn-close:focus {
+  box-shadow: 0 0 0 0.25rem rgb(25 135 84 / 25%) !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
